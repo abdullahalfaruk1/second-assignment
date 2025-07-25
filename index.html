@@ -1,264 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/2bc3fecdd0.js" crossorigin="anonymous"></script>
     <title>Assignment</title>
-    
+
     <style>
-        .badge{
-            margin-top: -720px;
-            margin-left: 360px;
-            width: 300px;
-        }
-        .body-1{
+        .body-1 {
             background-image: url(/assets/deal-bloom.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .body-2{
+
+        .body-2 {
             background-image: url(/assets/deal-ana.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .body-3{
+
+        .body-3 {
             background-image: url(/assets/deal-zabo.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .sector{
+
+        .sector {
             background-image: url(/assets/news-letter-bg.png);
             background-size: cover;
         }
-        .body-5{
-            margin-left: -150px;
-        }
-        @media  screen and (max-width: 576px) {
-            nav{
-                display: flex;
-                justify-content: space-between;
-            }
-            .card{
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-            }
-            .sector{
-                  background-size: cover;
-            }
-            .fot{
-                display:inline;
-            }
-            .headline{
-                flex-direction: column-reverse;
-
-            }
-        }
-        @media screen and (min-width:576px) and (max-width:1024px) {
-                 .card{
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-            }
-             .headline{
-                flex-direction: column-reverse;
-
-            }
-        }
-       
     </style>
 </head>
+
 <body class="bg-blue-50">
-    <header>
-    <nav class="flex justify-between items-center px-20 py-10"> 
-       <div> 
-        <img src="./assets/logo.png" alt="">
-    </div>
-    <div class="flex gap-10 ">
-        <div class="font-medium text-[17px]"><a href="">Home</a></div>
-        <div class="text-gray-500 text-[17px]"><a href="">Shop</a></div>
-        <div class="text-gray-500 text-[17px]"><a href="">About Us</a></div>
-        <div class="font-medium text-[1.1rem]"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart (58$)</a></div>
-    </div>
-   </nav>
-   <section class="flex items-center justify-between mt-20 px-20 headline">
-    <div>
-       <h1 class="text-7xl font-bold ">ALWAYS <span class="text-orange-400">FRESH</span><br><span class="text-orange-400">FLOWERS</span></h1>
-       <br>
-       <p class="w-150 text-gray-500 text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-    </div>
-    <div>
-        <img src="./assets/hero-flower.png" alt="">
-    </div>
-   </section>
-    </header>
-    <main>
-      <section class="mt-20 text-center">
-        <div>
-            <h1 class="font-bold text-4xl"><span class="text-orange-400">Our</span> Plants</h1>
-        </div>
-        <br>
-        <div class="text-center mx-110">
-            <p class="font-medium text-gray-500 text-[22px] w-250 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-        </div>
-      </section>
-      <section class="mt-20 grid grid-cols-4 px-80 gap-10 card">
-        <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-             <div>
-            <img src="./assets/sample-flower-image.png" alt="">
-            <br>
-           <div class="mx-15 text-[17px]">  <h3>Lily Blossom</h3>
-            <p class="font-bold">20 USD</p></div>
-            <br>
-            <button class="bg-amber-600 px-20.5 py-3 font-bold text-white">ADD TO CART</button>
-        </div>
-      </section>
-      <section class="mt-60 px-80 flex gap-10">
-        <div>
-            <img src="./assets/flower-store.png" alt="">
-            <p class="badge"><img src="./assets/trusted-badge.png" alt=""></p>
-        </div>
-        
-        <div>
-            <h1 class="font-bold text-7xl">Flower & Plants<br>Lover</h1>
-         <div class=" mt-10 w-146 text-[22px] ">
-   
-             <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-            <br>
-            <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-            <br>
-            <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-   
-         </div>
-   
-        </div>
-        </section>
-        <section class="flex text-center mt-40 mb-0.5 px-170">
+    <header class="w-11/12 mx-auto mb-30">
+        <nav class="flex justify-between items-center py-10">
             <div>
-                <h1 class="text-5xl font-bold"><span class="text-orange-400">Latest</span>  Deals</h1>
-                <p class="mt-5 text-gray-500 w-200 text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="flex gap-10">
+                <div class="font-medium text-[17px] hidden sm:block"><a href="">Home</a></div>
+                <div class="text-gray-500 text-[17px] hidden sm:block"><a href="">Shop</a></div>
+                <div class="text-gray-500 text-[17px] hidden sm:block"><a href="">About Us</a></div>
+                <div class="font-medium text-[1.1rem] "><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart
+                        (58$)</a></div>
+            </div>
+        </nav>
+        <section class="flex flex-col-reverse sm:flex-row items-center justify-between mt-20 ">
+            <div class="w-full sm:w-2/5">
+                <h1 class="text-7xl font-bold ">ALWAYS <span class="text-orange-400">FRESH</span><br><span
+                        class="text-orange-400">FLOWERS</span></h1>
+                <p class="text-gray-500 text-xl">Indulge your senses with the beauty and fragrance of our
+                    fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+                    that are perfect for any occasion. </p>
+            </div>
+            <div class="w-full sm:w-2/5">
+                <img class="w-full object-cover" src="./assets/hero-flower.png" alt="">
             </div>
         </section>
-     <section class="mt-0.5 grid grid-cols-2 p-30">
-        <div class="p-50">
-            <div class="body-1 text-center font-bold rounded-3xl py-24 px-25 ">
-           <h1 class="text-white text-[20px]"> 60% Off | Bloom Plant</h1>
-           <a class="text-white text-[16px] underline" href="">Shop Now</a>
-           </div>
-         <div class=" text-center font-bold  body-2 mt-10 rounded-3xl py-24 px-30">
-           <h1 class="text-white text-[20px]">30% Off | Ana Plant</h1>
-           <a class="text-white underline text-[16px] " href="">Shop Now</a>
-         </div>
-        </div>
-        <div class="body-3 mt-49 mb-50.5 rounded-4xl body-5 px-10 py-50 text-center font-bold ">
-            <h1 class="text-white text-[50px]">
-                25% Off | Zabo Plant
-            </h1>
-            <a class="text-[30px] underline text-white" href="">Shop Now</a>
-        </div>
-        
-     </section>
-     <section class="mt-0">
-          <div class="sector text-center p-80 bg-no-repeat gap-0 ">
-             <h1 class="text-white font-bold text-7xl">Join the colorful Bunch</h1>
-             <div class="flex justify-center mt-5">
-                <div><input class="bg-white border-none py-3.5 px-80" type="email" name="" id="" placeholder="Write email"></div>
-             <div><button class="bg-amber-600 text-white font-bold px-12 py-3.5">Subscribe</button></div>
-             </div>
-     </section>
+    </header>
+    <main class="">
+        <!-- 1st -->
+        <section class=" w-11/12 mx-auto text-center mb-30">
+            <div>
+                <h1 class="font-bold text-4xl"><span class="text-orange-400">Our</span> Plants</h1>
+            </div>
+            <br>
+            <div class="text-center">
+                <p class="font-medium text-gray-500 text-[22px]">Indulge your senses with the beauty and
+                    fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of
+                    fresh.</p>
+            </div>
+        </section>
+        <!-- 2nd -->
+        <section class="w-11/12 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-10 mb-30">
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+            <div class="space-y-5">
+                <img class="w-full" src="./assets/sample-flower-image.png" alt="">
+                <h3 class="text-center text-lg">Lily Blossom</h3>
+                <p class="font-bold text-center text-lg">20 USD</p>
+                <button class="w-full bg-amber-600 py-3 font-bold text-white">
+                    ADD TO CART
+                </button>
+            </div>
+        </section>
+        <!-- 3rd -->
+        <section class="w-11/12 mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <div class="w-full sm:w-2/5 relative">
+                <img class="w-full object-cover" src="./assets/flower-store.png" alt="">
+                <p class="hidden lg:block absolute -top-30 -right-20 w-56"><img src="./assets/trusted-badge.png" alt=""></p>
+            </div>
+
+            <div class="w-full sm:w-2/5 space-y-5">
+                <h1 class="font-bold text-5xl">Flower & Plants<br>Lover</h1>
+                <div class=" text-[22px] ">
+                    <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower
+                        shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <br>
+                    <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower
+                        shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <br>
+                    <li class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower
+                        shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- 4th -->
+
+        <!-- images section start here-------------------------- -->
+        <section class="mt-0.5 grid grid-cols-2 p-30">
+            <div class="p-50">
+                <div class="body-1 text-center font-bold rounded-3xl py-24 px-25 ">
+                    <h1 class="text-white text-[20px]"> 60% Off | Bloom Plant</h1>
+                    <a class="text-white text-[16px] underline" href="">Shop Now</a>
+                </div>
+                <div class=" text-center font-bold  body-2 mt-10 rounded-3xl py-24 px-30">
+                    <h1 class="text-white text-[20px]">30% Off | Ana Plant</h1>
+                    <a class="text-white underline text-[16px] " href="">Shop Now</a>
+                </div>
+            </div>
+            <div class="body-3 mt-49 mb-50.5 rounded-4xl body-5 px-10 py-50 text-center font-bold ">
+                <h1 class="text-white text-[50px]">
+                    25% Off | Zabo Plant
+                </h1>
+                <a class="text-[30px] underline text-white" href="">Shop Now</a>
+            </div>
+
+        </section>
+        <!-- 6th -->
+        <section class="mt-0">
+            <div class="sector text-center p-80 bg-no-repeat gap-0 ">
+                <h1 class="text-white font-bold text-7xl">Join the colorful Bunch</h1>
+                <div class="flex justify-center mt-5">
+                    <div><input class="bg-white border-none py-3.5 px-80" type="email" name="" id=""
+                            placeholder="Write email"></div>
+                    <div><button class="bg-amber-600 text-white font-bold px-12 py-3.5">Subscribe</button></div>
+                </div>
+        </section>
     </main>
     <footer class="flex justify-between mt-20 mb-20 px-50 fot">
         <div>
             <img src="./assets/logo.png" alt="">
-            <p class="w-80 text-[22px] text-gray-500 mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            <p class="w-80 text-[22px] text-gray-500 mt-3">Indulge your senses with the beauty and fragrance of our
+                fresh flower shop. </p>
         </div>
         <div>
-           <ul>
-             <li class="text-gray-500"><a href="">Home</a></li>
-             <br>
-            <li class="text-gray-500"><a href="">About Us</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">Blog</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">FAQ</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">Contact Us</a></li>
-           </ul>
+            <ul>
+                <li class="text-gray-500"><a href="">Home</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">About Us</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Blog</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">FAQ</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Contact Us</a></li>
+            </ul>
         </div>
-        <div >
-           <ul>
-             <li class="text-gray-500"><a href="">Features</a></li>
-             <br>
-            <li class="text-gray-500"><a href="">Pricing</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">Privacy Policy</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">Terms of Service</a></li>
-            <br>
-            <li class="text-gray-500"><a href="">Help Center</a></li>
-           </ul>
+        <div>
+            <ul>
+                <li class="text-gray-500"><a href="">Features</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Pricing</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Privacy Policy</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Terms of Service</a></li>
+                <br>
+                <li class="text-gray-500"><a href="">Help Center</a></li>
+            </ul>
         </div>
         <div class="flex gap-7">
             <a href=""><img src="./assets/icon-linkedin.png" alt=""></a>
-         <a href=""><img src="./assets/icon-twitter.png" alt=""></a>
+            <a href=""><img src="./assets/icon-twitter.png" alt=""></a>
             <a href=""><img src="./assets/icon-facebook.png" alt=""></a>
             <a href=""><img src="./assets/icon-youtube.png" alt=""></a>
         </div>
     </footer>
 </body>
+
 </html>
