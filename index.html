@@ -8,7 +8,6 @@
     <script src="https://kit.fontawesome.com/2bc3fecdd0.js" crossorigin="anonymous"></script>
     <title>Assignment</title>
 
-
 </head>
 
 <body class="bg-blue-50">
@@ -156,32 +155,51 @@
             </div>
         </section>
         <!-- images section start here-------------------------- -->
-        <section class="w-11/12 mx-auto grid grid-cols-2 mb-30">
-            <div class="">
-                <div class="bg-[url(./assets/deal-bloom.png)] bg-cover text-center font-bold rounded-3xl sm:h-70 w-xl">
-                    <div class="p-30">
-                        <h1 class="text-white text-[20px]"> 60% Off | Bloom Plant</h1>
-                        <a class="text-white text-[16px] underline" href="">Shop Now</a>
+
+        <section class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 mb-30">
+            <!-- Left column (2 stacked images - 25% width) -->
+            <div class="md:col-span-1 grid gap-6">
+                <!-- First image -->
+                <div class="rounded-xl shadow-lg relative min-h-[200px] bg-cover bg-center"
+                    style="background-image: url('./assets/deal-bloom.png')">
+                    <div
+                        class="absolute inset-0 bg-black/40 flex items-center justify-center text-center p-4 rounded-xl">
+                        <div>
+                            <h1 class="text-white text-xl font-bold">60% Off | Bloom Plant</h1>
+                            <a class="text-white underline hover:text-gray-200" href="#">Shop Now</a>
+                        </div>
                     </div>
                 </div>
-                <div
-                    class=" bg-[url(./assets/deal-ana.png)] bg-cover text-center font-bold mt-10 rounded-3xl h-70 w-xl">
-                    <div class="p-30">
-                        <h1 class="text-white text-[20px]">30% Off | Ana Plant</h1>
-                        <a class="text-white underline text-[16px] " href="">Shop Now</a>
+
+                <!-- Second image -->
+                <div class="rounded-xl shadow-lg relative min-h-[200px] bg-cover bg-center"
+                    style="background-image: url('./assets/deal-ana.png')">
+                    <div
+                        class="absolute inset-0 bg-black/40 flex items-center justify-center text-center p-4 rounded-xl">
+                        <div>
+                            <h1 class="text-white text-xl font-bold">30% Off | Ana Plant</h1>
+                            <a class="text-white underline hover:text-gray-200" href="#">Shop Now</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="bg-[url(./assets/deal-zabo.png)] bg-cover rounded-4xl text-center font-bold  ">
-                <div class="p-40 mt-15">
-                    <h1 class="text-white text-[50px] ">
-                        25% Off | Zabo Plant
-                    </h1>
-                    <a class="text-[30px] underline text-white" href="">Shop Now</a>
                 </div>
             </div>
 
+            <!-- Right column: 75% width, tall image -->
+            <div class="md:col-span-3 rounded-xl shadow-lg relative min-h-[400px] md:min-h-[auto] bg-cover bg-center"
+                style="background-image: url('./assets/deal-zabo.png')">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center text-center p-4 rounded-xl">
+                    <div>
+                        <h1 class="text-white text-2xl md:text-4xl font-bold mb-4">25% Off | Zabo Plant</h1>
+                        <a class="text-xl md:text-3xl underline text-white hover:text-gray-200" href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
+
+
+
         <!-- 6th -->
         <section class="w-full lg:w-5/5">
             <div class="bg-[url(./assets/news-letter-bg.png)] bg-cover text-center p-80 bg-no-repeat gap-0 ">
