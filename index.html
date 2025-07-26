@@ -200,15 +200,37 @@
 
 
 
-        <!-- 6th -->
-        <section class="w-full lg:w-5/5">
-            <div class="bg-[url(./assets/news-letter-bg.png)] bg-cover text-center p-80 bg-no-repeat gap-0 ">
-                <h1 class="text-white font-bold text-7xl">Join the colorful Bunch</h1>
-                <div class="flex justify-center mt-5">
-                    <div><input class="bg-white border-none " type="email" name="" id="" placeholder="Write email">
+        <!-- newsletter section start here -->
+        <section class="relative">
+
+            <div
+                class="bg-[url(./assets/news-letter-bg.png)] bg-cover bg-no-repeat bg-center w-full min-h-[300px] md:min-h-[400px] lg:min-h-[500px] flex items-center justify-center">
+
+                <div class="absolute inset-0 bg-black/30"></div>
+
+
+                <div class="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+                    <div class="flex flex-col items-center justify-center gap-6 text-center">
+
+                        <h1 class="text-white font-bold text-xl sm:text-3xl lg:text-5xl leading-tight">
+                            Join the colorful Bunch
+                        </h1>
+
+
+                        <div class="w-full max-w-2xl mx-auto" style="width: 75%">
+                            <div class="flex w-full">
+                                <input
+                                    class="bg-white border-none p-3 sm:p-4  flex-grow focus:outline-none focus:ring-2 focus:ring-amber-500"
+                                    type="email" placeholder="Your email address">
+                                <button
+                                    class="bg-amber-600 hover:bg-amber-700 text-white font-bold px-6 py-3 sm:py-4  transition-colors duration-200 whitespace-nowrap">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div><button class="bg-amber-600 text-white font-bold ">Subscribe</button></div>
                 </div>
+            </div>
         </section>
     </main>
     <footer class=" w-11/12 flex justify-between mt-20 mb-20 ">
